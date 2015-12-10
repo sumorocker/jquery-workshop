@@ -1,1 +1,14 @@
 /* Write your code here */
+
+.announcement{
+    border: 2px solid black;
+    padding: 6px;
+    background-color:grey;
+    border-radius:20px;
+}
+
+button{
+    border: 1px solid black;
+    float:right;
+    border-radius:5px;
+}
