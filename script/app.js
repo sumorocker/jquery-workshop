@@ -15,3 +15,13 @@ $("button").on('click', function(){
 
 
 });
+
+$('button').on('click','button',function(){
+    if($(this.text()=== 'x')){
+     $(this).parent().find('p').hide('slow')   
+    }
+    else{
+        $(this).parent().find('p').show('slow');
+        $(this).text("Show announcement")
+    }
+})
